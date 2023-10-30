@@ -1,0 +1,62 @@
+h5 {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+div.card-body {
+  background-color: lemonchiffon;
+  position: relative;
+  padding-left: 30px;
+  margin-right: 60px;
+}
+.text {
+  margin-left: 20px;
+}
+.temp {
+  color: red;
+}
+.col-sm {
+  display: block;
+  margin: auto;
+  align-items: stretch;
+}
+.less {
+  text-align: auto;
+  font-size: x-small;
+  display: block;
+}
+.btn {
+  padding: 0.5%;
+  background-color: lightseagreen;
+  text-size-adjust: smaller;
+  border-radius: 10px;
+}
+.units {
+  margin-bottom: 20px;
+}
+.text {
+  font-size: larger;
+}
+h4 {
+  margin-left: 200px;
+  color: darkblue;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+h6 {
+  font-size: smaller;
+  font-weight: relative;
+  font-size: xx-small;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  margin-left: 400px;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 60px 100px;
+}
