@@ -10,7 +10,7 @@ function two() {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let daysName = days[current.getDay()];
   let hour = current.getHours();
@@ -48,7 +48,7 @@ function displayWeatherCondition(response) {
   )} °C`;
   document.querySelector(
     "#hum"
-  ).innerHTML = ` Humidity:${response.data.main.humidity}%`;
+  ).innerHTML = ` Humidity: ${response.data.main.humidity} %`;
   document.querySelector(
     "#win"
   ).innerHTML = `Wind: ${response.data.wind.speed} mph`;
