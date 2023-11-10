@@ -62,3 +62,5 @@ function displayWeatherCondition(response) {
     document.querySelector("#fah").innerHTML = "other";
   }
 }
+
+searchCity("London");
