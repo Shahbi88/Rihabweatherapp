@@ -24,16 +24,15 @@ function two() {
   let two = `${daysName}  ${hour}:${minute}`;
   return two;
 }
-let textBox = document.querySelector(".text");
-let trig = document.querySelector("button");
-trig.addEventListener("click", viewCity);
-textBox.addEventListener("keyup", viewCity);
 
-function viewCity(event) {
+function handleSearchSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#city-input").value;
-  searchCity(city);
+  let searchInput = document.querySelector("#search-form-input");
+  searchCity(searchInput.value);
 }
+
+let searchFormElement = document.querySelector("#search-form");
+searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 function searchCity(city) {
   let apiKey = "cabdbda40038ba7d1165b953b1c7bd6c";
@@ -42,7 +41,8 @@ function searchCity(city) {
 }
 
 function displayWeatherCondition(response) {
-  document.querySelector("#city").innerHTML = response.data.name;
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = `${Math.round(
     response.data.main.temp
   )} °C`;

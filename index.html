@@ -19,10 +19,16 @@
         <h5>
           What's the weather like in...
         </h5>
-        <small>
-          <input class="text" id="city-input" placeholder="Enter the city:" />
-          <button type="submit" class="btn btn-primary">Search</button>
-        </small>
+          <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            id="search-form-input"
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
         <br />
         <h6>
          <div id="clo">Clouds:</div> 
