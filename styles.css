@@ -13,7 +13,7 @@ div.card-body {
   padding-left: 30px;
   margin-right: 60px;
 }
-.text {
+.search-form-input {
   margin-left: 20px;
 }
 .temp {
@@ -29,7 +29,7 @@ div.card-body {
   font-size: x-small;
   display: block;
 }
-.btn {
+.search-form-button {
   padding: 0.3%;
   background-color: lightseagreen;
   text-size-adjust: smaller;
